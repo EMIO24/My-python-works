@@ -1,0 +1,26 @@
+#!/bin/python3
+'''i want to first commence by recalling what i've learnt in str splicing'''
+e = "emmanuel"
+print(e[0:4])
+print(e[0: :3])
+
+buy = ['rice', 'beans', 'garri', 44, 43]
+buy[3] = 'yam'
+print(buy)
+buy.append('cassava')
+print(buy)
+buy[4: ] = 'potatoes', 'melon'
+print(buy)
+buy.insert(1, 'fish')
+print(buy)
+print(buy)
+buy.remove('melon')
+print(buy)
+buy.pop(5)
+print(buy)
+del buy[0]
+print(buy)
+buy.clear()
+print(buy)
+
+ 

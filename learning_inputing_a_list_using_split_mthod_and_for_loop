@@ -1,0 +1,14 @@
+#!/bin/python3
+''' i want to first, declare the number of elements i want in the list from the users input
+'''
+a = int(input('enter the number of elements you want in the list: '))
+''' i type cast it to convert the str gotten from the input to an int value '''
+''' i now want to collect the numbers of the list from the user '''
+''' note: you are expected to put the same number of elements in the list else the rest will be treated as a str e.g if you choose to put 5 elements in the list, the expected numbers you are to put in the list should be 5 numbers. '''
+n_ot_l = input('enter the numbers you want in the list ').split()
+''' the value of n_ot_l will be str and i need them to be int so i will use the for loop '''
+for i in range(a):
+   n_ot_l[i] = int(n_ot_l[i])
+''' the above code means for n_ot_l(0) in the for loop will convert n_ot_l(0) of the list to an integer value, this process will repeat itself for the total number of times specified in the (a) value -1 '''
+print(n_ot_l)
+

@@ -1,0 +1,7 @@
+#!/bin/python3
+the_list = []
+total_number_of_the_elements =int(input('how many elements do you want: '))
+for i in range(total_number_of_the_elements):
+    x = int(input('choose your numbers: '))
+    the_list.append(x)
+print('the list i created:', the_list)
